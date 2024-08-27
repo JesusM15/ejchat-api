@@ -54,8 +54,7 @@ REST_FRAMEWORK = {
 }
 
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:3000",  # URL de tu frontend,
-    'http://127.0.0.1:8000',
+    "https://ejchat-app.vercel.app",
     'https://ejchat-api.onrender.com',
     # Otras URLs permitidas si es necesario
 ]
