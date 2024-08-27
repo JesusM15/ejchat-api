@@ -14,6 +14,8 @@ DEBUG = config('DEBUG', default=False, cast=bool)
 
 ALLOWED_HOSTS = [
     'ejchat-api.onrender.com',
+    'ejchat-app.vercel.app',
+    'onrender.com'
 ]
 
 
