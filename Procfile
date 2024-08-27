@@ -1,1 +1,0 @@
-web: daphne -u /tmp/daphne.sock social_api.asgi:application
