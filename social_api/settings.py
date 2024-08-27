@@ -13,7 +13,7 @@ SECRET_KEY = config('SECRET_KEY')
 DEBUG = config('DEBUG', default=False, cast=bool)
 
 ALLOWED_HOSTS = [
-    
+    'https://ejchat-api.onrender.com',
 ]
 
 
@@ -56,6 +56,7 @@ REST_FRAMEWORK = {
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",  # URL de tu frontend,
     'http://127.0.0.1:8000',
+    'https://ejchat-api.onrender.com',
     # Otras URLs permitidas si es necesario
 ]
 
