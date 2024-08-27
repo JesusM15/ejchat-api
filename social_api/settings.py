@@ -13,7 +13,7 @@ SECRET_KEY = config('SECRET_KEY')
 DEBUG = config('DEBUG', default=False, cast=bool)
 
 ALLOWED_HOSTS = [
-    'https://ejchat-api.onrender.com',
+    'ejchat-api.onrender.com',
 ]
 
 
